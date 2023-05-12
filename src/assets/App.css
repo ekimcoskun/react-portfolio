@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+* {
+  font-family: Poppins, sans-serif;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.navigation-bar {
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  background: #212529;
+}
+
+.showing {
+  padding-left: 20%;
+}
+
+.tabs {
+  text-align: center;
+  height: 40%;
+}
+
+.tabs p {
+  font-size: 20px;
+  font-weight: 500;
+  color: hsla(0, 0%, 98%, 0.9);
+  cursor: pointer;
+}
+
+.tabs p.selected {
+  color: rgb(167, 34, 34);
+}
+
+.page-container {
+  height: 100vh;
+}
+
+.profile {
+  text-align: center;
+  height: 60%;
+  margin-top: 10%;
+}
+
+.profile p {
+  color: hsla(0, 0%, 98%, 0.9);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.photo {
+  border-radius: 20px;
+}
+
+.photo img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  border-color: #343a40 !important;
+  border: 15px solid;
+}
+
+.navigation-footer {
+  height: 30%;
+  display: flex;
+  color: "white";
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.icon :hover {
+  cursor: pointer;
+}

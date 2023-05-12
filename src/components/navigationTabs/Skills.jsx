@@ -1,4 +1,3 @@
-import "../../App.css";
 function Skills() {
   return (
     <div className="page-container">

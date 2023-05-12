@@ -1,4 +1,3 @@
-import "../../App.css";
 function Resume() {
   return (
     <div className="page-container">
