@@ -11,7 +11,7 @@ code {
 }
 
 * {
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
 }
 
 .App {
@@ -28,6 +28,7 @@ code {
 
 .showing {
   padding-left: 20%;
+  width: 80%;
 }
 
 .tabs {
@@ -48,6 +49,7 @@ code {
 
 .page-container {
   height: 100vh;
+  width: 100%;
 }
 
 .profile {
@@ -88,4 +90,28 @@ code {
 
 .icon :hover {
   cursor: pointer;
+}
+
+.typewriter {
+  font-size: 55px;
+  font-weight: 700;
+  color: hsla(0, 0%, 98%, 0.9);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.typewriter p {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
 }
