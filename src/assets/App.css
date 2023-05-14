@@ -223,11 +223,97 @@ code {
 }
 
 .skill-logo {
-  width: 100px;
-  height: 90px;
-  padding: 10px;
+  width: 10%;
+  height: 10%;
+  padding: 1%;
 }
 
 .skills-container {
-  padding: 10%;
+  padding: 2%;
+}
+
+.single-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  color: hsla(0, 0%, 98%, 0.9);
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-text {
+  margin-left: 2%;
+  color: hsla(0, 0%, 98%, 0.9);
+}
+
+.contact-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: hsla(0, 0%, 98%, 0.9);
+}
+
+.resume-container {
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.resume-education {
+  width: 50%;
+}
+
+.resume-experience {
+  width: 50%;
+}
+
+.single-resume {
+  background-color: #212529 !important;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: #222 solid 5px;
+  height: calc(100vh - 80%);
+}
+
+.long {
+  color: hsla(0, 0%, 98%, 0.9);
+  font-weight: 700;
+  background-color: rgb(167, 34, 34);
+  border-radius: 10px;
+  padding: 4px;
+  height: max-content;
+  width: max-content;
+}
+
+.field {
+  font-size: 22px;
+  font-weight: 1000;
+  color: hsla(0, 0%, 98%, 0.9);
+}
+
+.company {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(167, 34, 34);
+}
+
+.second-title {
+  font-size: 35px;
+  font-weight: 800;
+  color: hsla(0, 0%, 98%, 0.9);
 }
