@@ -1,8 +1,20 @@
 function Resume() {
+  const handlePDFButton = () => {
+    fetch("CV_EkimCoskun.pdf").then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "CV_EkimCoskun.pdf";
+        alink.click();
+      });
+    });
+  };
   return (
     <div className="page-container">
       <div className="resume-container">
         <p className="text-title">Resume</p>
+
         <div className="resume">
           <div className="resume-education">
             <p className="second-title">Education</p>
@@ -13,6 +25,9 @@ function Resume() {
                 <p className="company">Eskisehir Osmangazi University</p>
               </div>
             </div>
+            <button style={{ marginTop: "15%" }} className="button-85" onClick={handlePDFButton}>
+              Download CV
+            </button>
           </div>
           <div className="resume-experience">
             <p className="second-title">Experience</p>

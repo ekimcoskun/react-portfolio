@@ -116,7 +116,7 @@ code {
 
 .aboutme-container {
   color: hsla(0, 0%, 98%, 0.9);
-  padding-top: 20%;
+  padding-top: 2%;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -124,10 +124,19 @@ code {
 .text-container {
   width: 60%;
   margin-right: 10%;
+  height: 50%;
+  max-height: 50%;
+  padding: 2%;
 }
 
 .aboutme-details {
   width: 40%;
+}
+
+.aboutme-block {
+  display: flex;
+  height: 70%;
+  max-height: 70%;
 }
 
 .aboutme-details p {
@@ -145,7 +154,7 @@ code {
 
 .text {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .button-85 {
@@ -240,7 +249,7 @@ code {
 
 .contact-container {
   color: hsla(0, 0%, 98%, 0.9);
-  padding-top: 10%;
+  padding-top: 2%;
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
@@ -267,18 +276,15 @@ code {
 
 .resume {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   text-align: center;
 }
 
-.resume-education {
-  width: 50%;
-}
-
+.resume-education,
 .resume-experience {
-  width: 50%;
+  width: 100%;
 }
 
 .single-resume {
@@ -287,7 +293,7 @@ code {
   margin: 10px;
   border-radius: 10px;
   border: #222 solid 5px;
-  height: calc(100vh - 80%);
+  height: max-content;
 }
 
 .long {
@@ -316,4 +322,10 @@ code {
   font-size: 35px;
   font-weight: 800;
   color: hsla(0, 0%, 98%, 0.9);
+}
+@media only screen and (min-width: 768px) {
+  .resume-education,
+  .resume-experience {
+    width: 50%;
+  }
 }

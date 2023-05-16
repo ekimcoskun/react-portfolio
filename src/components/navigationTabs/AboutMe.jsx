@@ -14,12 +14,18 @@ function AboutMe() {
     <div className="page-container">
       <div className="aboutme-container">
         <p className="text-title">About Me</p>
-        <div style={{ display: "flex" }}>
+        <div className="aboutme-block">
           <div className="text-container">
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit modi ipsa numquam
-              perspiciatis rem ab odio rerum exercitationem? Vitae odio labore, molestias dolor
-              optio qui sint ratione voluptatum dignissimos maiores.
+              Hello, I'm Ekim Coskun, a professional full-stack developer at PATH Product & Software
+              House with 3 years of web development experience. I graduated from Eskisehir Osmangazi
+              University in December 2022
+            </p>
+            <p className="text">
+              In addition to my technical expertise, I take pride in incorporating my creativity and
+              problem-solving skills into my projects. I continuously stay updated with new
+              technologies, integrating current trends and best practices to optimize user
+              experiences.
             </p>
           </div>
 
